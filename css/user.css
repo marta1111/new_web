@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.google-maps {
+        position: relative;
+        padding-bottom: 35%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: url(../img/patterns/subtle_white_feathers.png);
+}
+h1{
+    display: none;
+    font-family:'Lobster', cursive;
+    text-transform: uppercase;
+}
+
+#introduction{
+    background:url(../img/pics/16.jpg);
+    padding-top: 750px;
+    background-repeat:round;
+}
+.intro-pic{
+    position: relative;
+    top: -50px;
+    margin-bottom: 20px;
+    margin-top: -55px;
+   
+}
+.intro-text{
+    position: relative;
+    top: -660px;
+    left: 60px;
+    z-index: 1;
+    
+}
+
+.navbar{
+    background: url(../img/patterns/subtle_white_feathers.png);
+    color: #fff;
+    border: transparent;
+}
+.navbar-inverse .navbar-nav > li> a{
+    font-size: 1.5rem;
+    color: #000;   
+}
+.navbar-inverse .navbar-nav > li> a:hover{
+    color: #ddd;
+}
+.navbar-inverse .navbar-nav > .active > a{
+    color: #000;
+    background: url(../img/patterns/subtle_white_feathers.png);
+}
+.navbar-inverse .navbar-nav > .active > a:hover{
+    color: #ddd;
+    background: url(../img/patterns/subtle_white_feathers.png);
+}
+
+#menu{
+    background: url(../img/patterns/subtle_white_feathers.png);
+}
+#about{
+    background: url(..//img/patterns/shattered.png);
+    margin-top:-42px;
+    padding-top: 70px;
+}
+.mission{
+    border: 1px solid transparent;
+    background-color: darksalmon;
+    border-radius: 30px; 
+}
+.mission:hover{
+    background-color:beige;
+}
+.mission ul{
+    list-style-type:none;
+}
+.mission ul li{
+    padding-top: 9px;
+}
+#news{
+    background-color: lightpink;
+
+}
+.more_info{
+    padding: 10px;
+    height: 40px;
+    width: 75px;
+}
+.more_text{
+    display: none;
+}
+.less_text{
+    padding: 10px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 75px;
+    display: none;
+       
+}
+h2,h3{
+    text-transform: uppercase;
+}
+img.apple{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+#offer{
+    padding-top: 60px;
+}
+#vip{
+    background: url(../img/patterns/triangular.png);
+    padding-top:170px;
+}
+.vip-offer{
+    margin-top: 90px;
+    padding-top: 10px;
+    border: 1px solid coral;
+    background-color: coral;
+}
+.vip-offer ul{
+    font-size: 17px;
+}
+.vip-offer ul li {
+    list-style-type: square;
+    color: black;
+}
+.vip-offer a:hover{
+    color:red;
+}
+#pokaz-slajdow{
+    margin-bottom: 20px;
+}
+.thumbnail:hover img{
+    opacity: 6;
+    transform: scale(.95);   
+}
+.thumbnail img:hover{
+    opacity: 1;
+    transform: scale(1) rotate(0.5deg);
+    box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+
+#name{
+    margin-bottom: 8px;
+}
+.comments{
+    padding-top: 8px;
+}
+.logo{
+    float: right;
+}
+footer{
+    background-color: lightcoral;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+.fb{
+    width: 40px;
+}
+.envelope{
+    width: 40px;
+}
+.call{
+    width: 35px;
+}
+.contact1{
+    background-color: #ddd;
+    border: 1px solid #ddd;
+}
+.footer1{
+    text-align: center;
+}
+
+/*animate css*/
+img.woman:hover{
+    -webkit-animation: shake;
+    animation: shake .9s;
+}
+.envelope:hover{
+    -webkit-animation: rotateIn .9s;
+    animation: rotateIn .9s;
+}
+.call:hover{
+    -webkit-animation: shake .9s;
+    animation: shake .9s;
+}
+.fb:hover{
+    -webkit-animation: rotateIn .9s;
+    animation: rotateIn .9s;
+}
+.mission:hover{
+    -webkit-animation: pulse .9s;
+    animation: pulse .9s;
+}
+
+
+ /*media query####################################*/
+@media (min-width: 1200px){
+	html{
+		font-size: 80%;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	html{
+		font-size: 80%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	html{
+		font-size: 50%;
+		}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	h1{
+		font-size: 40px;}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	h1{
+		font-size: 30px;
+		}
+}
+@media (max-width: 767px) {
+    h1{
+        font-size: 15px;
+        margin-right: 100px;
+        margin-bottom: -65px;
+          
+    }
+}
