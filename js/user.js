@@ -19,10 +19,12 @@ $(document).ready(function(){
         $(".more_text").show(1000);
         $(".less_text").show(1000);
         $(".more_info").hide(1000);
+        $(".apple").hide(1000);
     });
     $(".less_text").click(function(){
         $(".more_text").hide(1000);
         $(".less_text").hide(1000);
         $(".more_info").show(1000);
+        $(".apple").show(1000);
     });
 });
